@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("What is your name?");
 string username = Console.ReadLine(); 
-if(username == "Anna")
+if(username.ToLower() == "anna")
 {
     Console.WriteLine("Meow...MEOW");
 }
